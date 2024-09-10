@@ -11,18 +11,10 @@ function App() {
     return (
       <>
         <nav
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-            justifyItems: "center",
-            alignItems: "center",
-            placeItems: "center",
-            width: "100dvw",
-            padding:"1rem"
-          }}
+          className="bg-blue-800 w-screen flex justify-between items-center p-4"
         >
           <Link to="/" children="Home" />
+
           <Link to="/encrypt" children="Encrypt" />
 
           <img
